@@ -1,8 +1,8 @@
-vpc_cidr_block = "10.80.168.0/25"
+vpc_cidr_block = "172.31.0.0/16"
 
-instance_count = 3
+instance_count = 1
 
-#ami_id = data.aws_ami.centos.id
+#ami_id = ami-0d2a4a5d69e46ea0b
 
 instance_type = "t2.micro"
 

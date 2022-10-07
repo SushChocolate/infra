@@ -5,9 +5,9 @@ provider "aws" {
 terraform {
 
   backend "s3" {
-    bucket = "jaggu-devops-s3"
+    bucket = "sushchocolates3"
     key    = "mystate.tfstate"
-    region = "eu-west-2"
+    region = "eu-west-1"
     # dynamodb_table = "mydynamo-tf-state-lock"
   }
 
